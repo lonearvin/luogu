@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/alg.dir/src/main.cpp.o -o /data/Tian/zjtproject/luogu/bin/alg 

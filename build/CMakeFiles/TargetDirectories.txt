@@ -1,0 +1,3 @@
+/data/Tian/zjtproject/luogu/build/CMakeFiles/alg.dir
+/data/Tian/zjtproject/luogu/build/CMakeFiles/edit_cache.dir
+/data/Tian/zjtproject/luogu/build/CMakeFiles/rebuild_cache.dir
