@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/data/Tian/zjtproject/luogu/bin/alg"
-  "/data/Tian/zjtproject/luogu/bin/alg.pdb"
+  "/Users/al/Desktop/files/C++/luogu/bin/alg"
+  "/Users/al/Desktop/files/C++/luogu/bin/alg.pdb"
   "CMakeFiles/alg.dir/src/main.cpp.o"
   "CMakeFiles/alg.dir/src/main.cpp.o.d"
 )
