@@ -1,53 +1,17 @@
+
 #include <iostream>
 #include <vector>
+#include <utility>
+#include <set>
 #include <unordered_map>
-#include <string>
+#include <algorithm>
 using namespace std;
 
-vector<int> N_addition(int N, vector<int>& a){
-    vector<int> res;int n = a.size();
-    int carry = 0;
-    for (int i=0;i<n;i++){
-        int x = a[i];
-        int y = a[n-i-1];
-        int sum = x+y+ carry;
-        res.push_back(sum%N);
-        carry = sum/N;
-    }
-    if (carry>0){
-        res.push_back(carry);
-    }
-    return res;
-}
-
-bool f(vector<int>& a){
-    int l = a.size();
-    for(int i=0;i<l/2;i++){
-        if(a[i]!=a[l-i-1]) return false;
-    }
-    return true;
-}
-
 int main(){
-    int N; cin>>N;
-    string s; cin>>s;
-    vector<int> a; vector<int> b;
-    for(int i=0;i<s.size();i++){
-        if (N == 16 and s[i]-'A'>=0){
-            a.push_back((s[i]-'A')+10);
-        }else{
-            a.push_back(s[i]-'0');
-        }
-    }
-    int ans = 0;
-    while (!f(a)) {
-        a = N_addition(N, a);
-        ans++;
-        if (ans>30){
-            cout<<"Impossible!"<<endl;
-            return 0;
-        }
-    }
-    cout<<"STEP="<<ans<<endl;
+
+
     return 0;
 }
+// 21 32 43
+// 21 52 73
+// 31 

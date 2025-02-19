@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/al/Desktop/files/C++/luogu/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -o CMakeFiles/alg.dir/src/main.cpp.o -c /Users/al/Desktop/files/C++/luogu/src/main.cpp",
+  "file": "/Users/al/Desktop/files/C++/luogu/src/main.cpp",
+  "output": "CMakeFiles/alg.dir/src/main.cpp.o"
+}
+]

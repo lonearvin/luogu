@@ -73,15 +73,15 @@ CMakeFiles/alg.dir/src/main.cpp.o: CMakeFiles/alg.dir/flags.make
 CMakeFiles/alg.dir/src/main.cpp.o: /Users/al/Desktop/files/C++/luogu/src/main.cpp
 CMakeFiles/alg.dir/src/main.cpp.o: CMakeFiles/alg.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/al/Desktop/files/C++/luogu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alg.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alg.dir/src/main.cpp.o -MF CMakeFiles/alg.dir/src/main.cpp.o.d -o CMakeFiles/alg.dir/src/main.cpp.o -c /Users/al/Desktop/files/C++/luogu/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alg.dir/src/main.cpp.o -MF CMakeFiles/alg.dir/src/main.cpp.o.d -o CMakeFiles/alg.dir/src/main.cpp.o -c /Users/al/Desktop/files/C++/luogu/src/main.cpp
 
 CMakeFiles/alg.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alg.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/al/Desktop/files/C++/luogu/src/main.cpp > CMakeFiles/alg.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/al/Desktop/files/C++/luogu/src/main.cpp > CMakeFiles/alg.dir/src/main.cpp.i
 
 CMakeFiles/alg.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alg.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/al/Desktop/files/C++/luogu/src/main.cpp -o CMakeFiles/alg.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/al/Desktop/files/C++/luogu/src/main.cpp -o CMakeFiles/alg.dir/src/main.cpp.s
 
 # Object files for target alg
 alg_OBJECTS = \
